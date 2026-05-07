@@ -10,7 +10,7 @@ class FizzBuzz { // This defines the code to be run? Or is it that if I press ru
         }
     }
 
-    private static void doFizzBuzz(int i) {
+    public static void doFizzBuzz(int i) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0; // Boolean variable that stores whether 3 divides i
         boolean divisibleBy5 = i % 5 == 0; // "                                  " 5 divides i
